@@ -6,9 +6,14 @@ Created on Tue Jul 13 16:31:46 2021
 """
 
 import numpy as np
+###############################
+"This is Matthew Maynes' Matrix configuration form JLab github .txt to python array "
+"Changed the name of file to make code runnable"
+###############################
+
 
 "Name of the file you wish to analize"
-data = "shms.txt" #this is your file
+data = r"shms-2017-26cm-monte_q1_1018_q2_1027_q3_1018_forward.dat.txt" #this is your file
 
 
 "Process of checking if the matrices are clean and if not then it will clean them"
@@ -223,3 +228,4 @@ for i in range(0,b):
         print("Offset: ", offsets[i])
         print("length :", lengths[i])
         print(Matrix[i])
+
